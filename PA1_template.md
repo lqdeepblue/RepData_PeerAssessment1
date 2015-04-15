@@ -67,6 +67,7 @@ steps_5min[mrow, "interval"]
 ## [1] 835
 ```
 
+From the plot, it is obvious that 5-minute interval 835 contains the maximum number of steps
 
 ## Imputing missing values
 
@@ -152,3 +153,5 @@ xyplot(steps ~ interval|day_type,       ## conditional formula to get 4 panels
 ```
 
 ![](PA1_template_files/figure-html/unnamed-chunk-11-1.png) 
+
+According to the plots, there are differences in activity patterns between weekdays and weekends?
